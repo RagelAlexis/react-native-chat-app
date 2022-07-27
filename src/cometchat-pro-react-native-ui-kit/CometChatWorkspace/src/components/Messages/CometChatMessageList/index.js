@@ -168,7 +168,7 @@ class CometChatMessageList extends React.PureComponent {
         this.MessageListManager.fetchPreviousMessages()
           .then((messageList) => {
             if (messageList.length === 0) {
-              this.decoratorMessage = 'No messages found';
+              this.decoratorMessage = 'Aucun message trouvé';
             }
 
             messageList.forEach((message) => {

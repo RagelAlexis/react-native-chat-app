@@ -614,7 +614,7 @@ class CometChatGroupListWithMessages extends React.Component {
     try {
       const messageList = [];
       members.forEach((eachMember) => {
-        const message = `${this.loggedInUser.name} added ${eachMember.name}`;
+        const message = `${this.loggedInUser.name} ajouté ${eachMember.name}`;
         const sentAt = (new Date() / 1000) | 0;
         const messageObj = {
           category: 'action',

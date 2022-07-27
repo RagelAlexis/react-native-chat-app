@@ -14,8 +14,9 @@ export const calcWidth = (width) => {
 
 export default StyleSheet.create({
   wrapperStyle: {
-    alignItems: 'center',
+    flex: 1,
     justifyContent: 'center',
+    alignItems: 'center',
   },
   errorStyle: {
     fontSize: 12 * heightRatio,
@@ -35,7 +36,7 @@ export default StyleSheet.create({
   },
   titleStyle: {
     fontSize: 32 * heightRatio,
-    color: '#2da7ff',
+    color: 'black',
     width: '100%',
     textAlign: 'center',
     fontWeight: '500',

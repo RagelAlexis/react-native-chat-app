@@ -603,7 +603,7 @@ export default class CometChatGroupDetails extends React.Component {
             style.itemLinkStyle,
             { color: this.viewTheme.color.primary },
           ]}>
-          View members
+          Voir les membres
         </Text>
       </TouchableOpacity>
     );
@@ -627,7 +627,7 @@ export default class CometChatGroupDetails extends React.Component {
               style.itemLinkStyle,
               { color: this.viewTheme.color.primary },
             ]}>
-            Add members
+            Ajouter des membres
           </Text>
         </TouchableOpacity>
       );
@@ -638,8 +638,8 @@ export default class CometChatGroupDetails extends React.Component {
             this.deleteGroup();
           }}>
           <Text
-            style={[style.itemLinkStyle, { color: this.viewTheme.color.red }]}>
-            Delete and exit
+            style={[style.itemLinkStyle, { color: this.viewTheme.color.red }]}>     
+            Supprimer et quitter
           </Text>
         </TouchableOpacity>
       );
@@ -656,7 +656,7 @@ export default class CometChatGroupDetails extends React.Component {
               style.itemLinkStyle,
               { color: this.viewTheme.color.primary },
             ]}>
-            Banned members
+            Membres bannis
           </Text>
         </TouchableOpacity>
       );
@@ -676,7 +676,7 @@ export default class CometChatGroupDetails extends React.Component {
               style.itemLinkStyle,
               { color: this.viewTheme.color.primary },
             ]}>
-            Leave group
+            Quitter le groupe
           </Text>
         </TouchableOpacity>
       );
@@ -705,7 +705,7 @@ export default class CometChatGroupDetails extends React.Component {
 
     let members = (
       <View style={style.fullWidth}>
-        <Text style={[style.sectionHeaderStyle]}>Members</Text>
+        <Text style={[style.sectionHeaderStyle]}>Membres</Text>
         <View style={style.listItemContainer}>
           {viewMembersBtn}
           {addMembersBtn}
@@ -855,7 +855,7 @@ export default class CometChatGroupDetails extends React.Component {
                           </Text>
                         </View>
                         <Text style={style.statusText} numberOfLines={1}>
-                          {parseInt(this.props.item?.membersCount)} Members
+                          {parseInt(this.props.item?.membersCount)} Membres
                         </Text>
                       </View>
                     </View>

@@ -498,7 +498,7 @@ class CometChatMessages extends React.PureComponent {
     }
     const messageList = [...this.state.messageList];
     members.forEach((eachMember) => {
-      const message = `${this.loggedInUser.name} added ${eachMember.name}`;
+      const message = `${this.loggedInUser.name} ajouté ${eachMember.name}`;
       const sentAt = (new Date() / 1000) | 0;
       const messageObj = {
         category: 'action',
@@ -708,7 +708,7 @@ class CometChatMessages extends React.PureComponent {
         params.actionGenerated(
           'updateThreadMessage',
           [deletedMessage],
-          'delete',
+          'Supprimer',
         );
 
         if (messageList.length - messageKey === 1 && !message.replyCount) {

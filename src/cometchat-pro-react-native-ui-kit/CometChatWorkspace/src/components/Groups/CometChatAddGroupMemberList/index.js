@@ -290,7 +290,7 @@ class CometChatAddGroupMemberList extends React.Component {
   listHeaderComponent = () => {
     return (
       <View style={[style.contactHeaderStyle]}>
-        <Text style={style.contactHeaderTitleStyle}>Add Members</Text>
+        <Text style={style.contactHeaderTitleStyle}>Ajouter des membres</Text>
       </View>
     );
   };
@@ -374,7 +374,7 @@ class CometChatAddGroupMemberList extends React.Component {
                   <KeyboardAvoidingView style={style.modalContainer} behavior={Platform.OS == 'ios' ? null : 'height'} enabled>
                     <View style={style.headerContainer}>
                         <Text style={style.contactHeaderTitleStyle}>
-                          Add Members
+                          Ajouter des membres
                         </Text>
                       <TouchableOpacity
                         onPress={() => {
@@ -383,7 +383,7 @@ class CometChatAddGroupMemberList extends React.Component {
                         }}
                         style={{}}>
                         <Text style={{ color: this.theme.color.blue }}>
-                          Close
+                          Fermer
                         </Text>
                       </TouchableOpacity>
                     </View>
@@ -405,7 +405,7 @@ class CometChatAddGroupMemberList extends React.Component {
                           ref={this.textInputRef}
                           autoCompleteType="off"
                           value={this.state.textInputValue}
-                          placeholder="Search"
+                          placeholder="Chercher"
                           placeholderTextColor={
                             this.theme.color.textInputPlaceholder
                           }
@@ -473,7 +473,7 @@ class CometChatAddGroupMemberList extends React.Component {
                           color: `${this.theme.color.white}`,
                         },
                       ]}>
-                      Add
+                      Ajouter
                     </Text>
                   </TouchableOpacity>
                   </KeyboardAvoidingView>

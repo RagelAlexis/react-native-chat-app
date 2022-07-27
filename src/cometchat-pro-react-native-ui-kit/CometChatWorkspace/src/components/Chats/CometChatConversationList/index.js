@@ -1005,7 +1005,7 @@ class CometChatConversationList extends React.Component {
                       resizeMode="contain"
                       style={{ height: 24 }}
                     />
-                    <Text style={styles.deleteText}>Delete</Text>
+                    <Text style={styles.deleteText}>Supprimer</Text>
                   </TouchableOpacity>
                 </View>
               )}

@@ -107,7 +107,7 @@ export default class CometChatBanGroupMemberList extends React.Component {
   listHeaderComponent = () => {
     return (
       <View style={[style.contactHeaderStyle]}>
-        <Text style={style.contactHeaderTitleStyle}>Banned Members</Text>
+        <Text style={style.contactHeaderTitleStyle}>Membres bannis</Text>
       </View>
     );
   };
@@ -162,7 +162,7 @@ export default class CometChatBanGroupMemberList extends React.Component {
     const group = this.context;
     const membersList = [...group.bannedMemberList];
     if (!membersList.length) {
-      this.decoratorMessage = 'No banned members';
+      this.decoratorMessage = 'Aucun membre banni';
     }
     return (
       <React.Fragment>
@@ -193,7 +193,7 @@ export default class CometChatBanGroupMemberList extends React.Component {
                     <View style={style.headerContainer}>
                       <View style={{}}>
                         <Text style={style.contactHeaderTitleStyle}>
-                          Banned Members
+                         Membres bannis
                         </Text>
                       </View>
                       <TouchableOpacity

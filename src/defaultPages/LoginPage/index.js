@@ -63,14 +63,11 @@ class LoginPage extends React.PureComponent {
       <KeyboardAvoidingView style={{flex: 1}}>
         {loader}
 
-        <ScrollView>
+
           <View style={style.wrapperStyle}>
             {errorMessage}
             <Text style={style.titleStyle}>TchatApp</Text>
             <View style={style.uidWrapperStyle}>
-              <View>
-                <Text style={style.subtitleStyle}>Se connecter avec UID</Text>
-              </View>
               <View style={style.inputWrapperStyle}>
                 <TextInput
                   style={style.textInput}
@@ -78,7 +75,7 @@ class LoginPage extends React.PureComponent {
                   onChangeText={(value) => {
                     this.setState({uid: value});
                   }}
-                  placeholder="Entrez votre UID ici"
+                  placeholder="Entrez votre Pseudo ici"
                 />
               </View>
               <TouchableOpacity
@@ -92,7 +89,7 @@ class LoginPage extends React.PureComponent {
             onClose={() => this.setState({showError: false})}
             ref={(ref) => (this.dropDownAlertRef = ref)}
           />
-        </ScrollView>
+
       </KeyboardAvoidingView>
     );
   }

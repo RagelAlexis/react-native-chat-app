@@ -267,7 +267,7 @@ export default class CometChatViewGroupMemberList extends React.Component {
                     <View style={style.headerContainer}>
                       <View style={style.headerContainerStyle}>
                         <Text style={style.contactHeaderTitleStyle}>
-                          Group Members
+                        Les membres du groupe
                         </Text>
                       </View>
                       <TouchableOpacity
@@ -277,7 +277,7 @@ export default class CometChatViewGroupMemberList extends React.Component {
                         }}
                         style={{}}>
                         <Text style={{ color: this.theme.color.blue }}>
-                          Close
+                          Fermer
                         </Text>
                       </TouchableOpacity>
                     </View>
