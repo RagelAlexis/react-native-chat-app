@@ -1,7 +1,7 @@
 <div style="width:100%">
     <div style="width:50%;">
         <div align="center">
-        <img align="center" width="180" height="180" alt="CometChat" src="./Screenshots/logo.png">    
+        <img align="center" width="180" height="180" alt="TchatApp" src="/logo.png">    
         </div>    
     </div>    
 </div>
@@ -190,6 +190,7 @@ export default function CometChatUIView() {
 
 Visit our [React-Native sample app](https://github.com/cometchat-pro/react-native-chat-app) repo to run the React-Native sample app.
 
+---
 ---
 
 # Troubleshooting
